@@ -35,4 +35,14 @@ public class MainAppTest
     {
         assertTrue( true );
     }
+    
+    /**
+     * Test to check string length greater than two
+     */
+    public void testStrLength()
+    {
+        String example = "VI";
+        assertTrue("Failed",example.length()>2);
+        System.out.print("succedded");
+    }
 }
