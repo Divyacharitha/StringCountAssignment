@@ -41,7 +41,7 @@ public class MainAppTest
      */
     public void testStrLength()
     {
-        String example = "VI";
+        String example = "VISA";
         assertTrue("Failed",example.length()>2);
         System.out.print("succedded");
     }
